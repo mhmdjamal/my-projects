@@ -1,23 +1,42 @@
-body{
-    margin: 0;
-    height: 100vh;
 
+body{
+    margin: 0%;
+    height: 100vh;
 }
-.red{
-    height: 25%;
-background-color: #ff0000;
+.layout{
+    display: flex;
+    flex-direction: row;
 }
-.blue{
-    height: 25%;
-    background-color: #0000ff;
+.layout > .side-nav {
+padding: 20px;
+background-color: #cedbbf;
+height: 100vh;
+overflow-y: auto;
+overflow-x: hidden;
+width: 30%;
+max-width: 200px;
 }
-.green{
-    height: 25%;
-    background-color: #00ff00
-    ;
+.layout > .side-nav >  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
-.yallow{
-    height: 25%;
-    background-color: #fffb00
-    ;
+.layout > .side-nav > nav > a {
+text-decoration: none;
+font-size: 20px;
+}
+.content{
+    padding: 20px;
+    width: 60%;
+    overflow: auto;
+}
+.card-section{
+display: flex;
+flex-wrap: wrap;
+gap: 12px;
+flex-direction: row;
+}
+.card-section > .card{
+   background-color: #ff0000;
+   width: 25%; 
 }
