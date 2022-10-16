@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dashbord{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(46, 185, 185);
+    padding: 20px;
+    max-width: 900px; 
+    overflow: auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    border: 1px solid crimson;
+    padding: 8px;
+    flex-wrap: wrap;
+}
+.col{
+    border: 1px solid chartreuse;
+    padding: 8px;
+    
+}
+.col-1{
+    flex: 1 1 150px;
+}
+.col-2{
+    flex: 2 1 150px;
+}
+.col-3{
+    flex: 3 1 150px;
+}
