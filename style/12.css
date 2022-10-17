@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+main{
+    display: flex;
+height: 100vh;
+}
+.full{
+    display: flex;
+    flex-direction: row;
+    margin: auto; gap: 16px;
+    max-width: 1150px;
+}
+img{
+    height: 100%;
+}
+.col{
+    flex: 1;
+}
+.formp{
+    display: flex;
+    height: 100%;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    gap: 16px;
+}
+h1{
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+
+
