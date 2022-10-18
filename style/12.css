@@ -3,41 +3,32 @@
 }
 body{
     margin: 0;
+    background-color: darkgrey;
 }
 
 main{
-    display: flex;
+display: flex;
 height: 100vh;
 }
-.full{
-    display: flex;
-    flex-direction: row;
-    margin: auto; gap: 16px;
-    max-width: 1150px;
-}
 img{
-    height: 100%;
+width: 100%;}
+.full{
+max-width: 1150;
+margin: auto;
+display: flex;
 }
 .col{
     flex: 1;
 }
-.formp{
+.in{
     display: flex;
     height: 100%;
-   
 }
 form{
+    max-width: 300px;
     display: flex;
     flex-direction: column;
-    max-width: 300px;
     margin: auto;
     gap: 16px;
+    
 }
-h1{
-    text-align: center;
-}
-input{
-    text-align: center;
-}
-
-
