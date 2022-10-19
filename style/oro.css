@@ -1,12 +1,35 @@
-.card{
-    gap: 16px;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid;
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
+body{
+    margin: 0;
+
 }
-.child{
+header{
+    background-color: dimgrey;
+    text-align: center;
+    height: 40px;
+}
+.img{
+    background-color: rgb(204, 131, 131);
+    text-align: center;
+    height: 40px;
+
+}
+.navbar{
+    width: 25%;
+    height:450px ;
+    background-color: brown;
+}
+.contant{
+    background-color: aqua;
+    width: 500px;
     
+}
+.footer{
+    background-color: rgb(170, 3, 3);
+    text-align: center;
+    height: 40px;
+    
+}
+.full{
+    display: flex;
+    flex-direction: row;
 }
