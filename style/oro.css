@@ -2,34 +2,23 @@ body{
     margin: 0;
 
 }
-header{
-    background-color: dimgrey;
-    text-align: center;
-    height: 40px;
-}
 .img{
-    background-color: rgb(204, 131, 131);
-    text-align: center;
-    height: 40px;
-
+    height: 500px;
+    height: 500px;
 }
-.navbar{
-    width: 25%;
-    height:450px ;
-    background-color: brown;
+.test{
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    color: azure;
+    font-size: x-large;
 }
-.contant{
-    background-color: aqua;
-    width: 500px;
+.test2{
+    position: absolute;
+    top: 8px;
+    right: 160px;
+    font-size: 18px;
+  }
+.test3{
     
-}
-.footer{
-    background-color: rgb(170, 3, 3);
-    text-align: center;
-    height: 40px;
-    
-}
-.full{
-    display: flex;
-    flex-direction: row;
 }
