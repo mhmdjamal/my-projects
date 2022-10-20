@@ -1,24 +1,14 @@
 body{
     margin: 0;
-
+font-size: 50px;
+height: 1000px;
 }
-.img{
-    height: 500px;
-    height: 500px;
+.perants{
+    position: relative;
+    border: 3px solid;
+    height: 600px;
 }
-.test{
-    position: absolute;
-    left: 20px;
-    top: 12px;
-    color: azure;
-    font-size: x-large;
-}
-.test2{
-    position: absolute;
-    top: 8px;
-    right: 160px;
-    font-size: 18px;
-  }
-.test3{
-    
+.h2{
+    position: sticky;
+    top: 0;
 }
