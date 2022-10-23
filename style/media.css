@@ -1,0 +1,13 @@
+body{
+    background-color: azure;
+    width: 1000px;
+}
+body :first-child:hover{
+    background-color: orange;
+}
+body :nth-child(2):hover{
+    background-color: red;
+}
+@media(max-width:400px){
+    p{ background-color: aqua;}
+}
