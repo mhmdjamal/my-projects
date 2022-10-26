@@ -4,6 +4,7 @@ function calc() {
   let result = document.getElementById("result");
   let opeSum = document.getElementById("sum");
   let opemin = document.getElementById("min");
+  let opediv =document.getElementById("div");
 
 if(opeSum.checked){
     result.innerHTML = parseInt(firstNumber.value) + parseInt(secondNumber.value);
@@ -17,5 +18,4 @@ if(opemin.checked){
   result.innerHTML = parseInt(firstNumber.value) / parseInt(secondNumber.value);
 
 }
-
 }
