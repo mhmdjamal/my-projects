@@ -17,15 +17,19 @@ header{
     background-image: url(/image/Pointing\ to\ row\ of\ locks.jpg);
     background-attachment: fixed;
     background-position: center; 
-    width: 100vw;
+    width: 100%;
     transition: 1.3s all;
     position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
    }
    .h-contet{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10px 12px;
+    margin: 0px 12px;
     padding: 12px 12px;
     flex-wrap: wrap;
    }
@@ -78,4 +82,306 @@ flex-wrap: wrap;
    header:hover{
     background-image: url(/image/adafruit_soundcloud_header_2.jpg);
 }
+main{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    gap: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: var(--wihte);
+}
+.work > a > i{
+    padding: 1rem;
+    margin: 1rem;
+    color: var(--red);
+    font-weight: 700;
+    font-size: x-large;
+}
+.work > a > i:hover{
+color: var(--purple);
+transform: scale(1.1,1.1);
+}
 
+
+.card-section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+border-radius: 50px;
+    background-color: var(--wihte);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.card{
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 12px;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+    transition: 1s all;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 20px 20px 50px 10px rgb(192, 193, 255) inset;
+    
+}
+.img{
+    padding: 20px;
+    margin: 12px;
+    flex: 1 1 300px;
+}
+img{
+width: 100%;
+height: 100%;
+}
+
+.span{
+display: flex;
+gap: 8px;
+display: flex;
+flex-wrap: wrap;
+}
+.me{
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    color: var(--light-blue);
+    flex: 1 1 160px;
+}
+h1{
+    text-align: center;
+    color: var(--light-blue);
+    margin: 20px;
+}
+.card >.span> a{
+    text-decoration: none;
+    color: var(--wihte);
+    background-color: var(--light-blue);
+    border: 1px ;
+    border-radius: 14px;
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+    flex: 1 1 160px;
+}
+.card:hover{
+    transform: scale(1.1,1.1);
+    opacity: 0.8;
+}
+.card>.span>h3{
+    color: var(--light-blue);
+}
+.courses{
+    flex-wrap: wrap;
+    border: 1px solid;
+    padding: 20px;
+display: grid;
+grid-template-areas:
+"html . css . javascript . c . java . paython . csharp . data . net"
+;
+border: 1px ;
+border-bottom-left-radius: 16px;
+border-bottom-right-radius: 16px;
+background-color: var(--black-blue);
+transition: ease 1s;
+box-shadow: 20px 20px 50px 10px rgb(192, 193, 255) inset;
+
+}
+.html{
+    grid-area: html;
+    background-color: var(--red);
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--wihte);
+}
+.css{
+    grid-area: css;
+    background-color: var(--red);
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--wihte);
+
+}
+.javascript{ 
+    grid-area: javascript;
+    background-color: var(--red);
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--wihte);
+
+}
+.c{
+    grid-area: c;
+    background-color: var(--red);
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--wihte);
+
+}
+.java{
+    grid-area: java;
+    background-color: var(--red);
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--wihte);
+
+}
+.paython{
+    grid-area: paython;
+    background-color: var(--red);
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--wihte);
+
+}
+.csharp{
+    grid-area: csharp;
+    background-color: var(--red);
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--wihte);
+
+}
+
+.data{
+    grid-area: data;
+    background-color: var(--red);
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--wihte);
+
+}
+.net{
+    grid-area: net;
+    background-color: var(--red);
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--wihte);
+
+}
+.courses:hover{
+    transform:scale(1,1);
+opacity: .8;
+}
+footer{
+    border: solid 1px;
+    box-shadow: 20px 20px 50px 10px rgb(192, 193, 255) inset;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+}
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 12px;
+    padding: 12px;
+}
+.row1{
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.con > nav{
+gap: 16px;
+ display: flex;
+    flex-direction: column;
+}
+.con > nav >a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--light-blue);
+}
+
+.conection{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.conection> a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--light-blue);
+}
+.logo1{
+    font-weight: 800;
+    font-size: xx-large;
+    color: var(--black-blue);
+}
+.copyright{
+    font-weight: 700;
+    color: var(--red);
+}
+.work2{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.work2> a{
+    margin: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--light-blue);
+}
+@media(max-width:472px){
+    .courses{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+
+    }
+}
